@@ -20,6 +20,7 @@
     --white:hsl(0 0% 100%);
     --black-transparent:hsl(0 0% 0%/0.5);
     font-family:Oswald, sans-serif;
+    font-size:1rem;
 }
 body{
     height:100vh;
@@ -71,4 +72,14 @@ svg {
 polygon {
     fill:none;
     stroke:var(--white);
+}
+
+p {
+    text-align: left;
+    font-size:1.5rem;
+    margin:0 1.5rem 0.5rem 1.5rem;
+}
+
+#form p:first-child{
+    margin-top:4rem;
 }
