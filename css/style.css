@@ -86,9 +86,37 @@ p {
     margin-top:4rem;
 }
 
+form h2 {
+    padding-bottom: 15px;
+}
 form {
     width:100%;
     height:auto;
     padding:1rem 3rem 1.5rem 1.5rem;
     box-shadow: 2px 2px 2px var(--grey);
+}
+
+.form-fields-flex {
+    display:flex;
+    gap:5vw;
+}
+ .right-form-fields,
+ .left-form-fields {
+    width:40%;
+ }
+.form-row {
+    margin-bottom:40px;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    width:100%;
+    padding:7px;
+    font-size:inherit;
 }
