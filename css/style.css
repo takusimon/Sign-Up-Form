@@ -138,3 +138,33 @@ input[type="email"]:invalid {
     border:1px solid red;
     box-shadow: 1px 1px 2px red;
 }
+
+.submit {
+    width:50%;
+    margin:2vw 0 0 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap:1rem;
+}
+
+button {
+    margin-left:1.3vw;
+    width:50%;
+    text-align: center;
+    padding:.5rem;
+    border-radius: 10px;
+    border:0;
+    background-color: var(--image-primary);
+    box-shadow: 1px 1px 2px var(--image-primary);
+    font-size:1.5rem;
+    color:var(--white);
+}
+
+.login {
+    font-size:1.5rem;
+}
+
+a[class='login']{
+    text-decoration: none;
+    color: var(--image-primary);
+}
