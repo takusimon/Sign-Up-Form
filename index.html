@@ -29,7 +29,7 @@
             <p class="c2a">Find your stillness. Rediscover yourself.</p>
             <p class="c2a">Life moves fast, and sometimes we forget to slow down. Our meditation program helps you step away from the noise, reconnect with the present, and build a little more peace into every day. Whether you're new to meditation or deepening your practice, your journey starts with a single breath.</p>
             <p class="c2a">Take a breath. Find your balance. Begin your journey today.</p>
-            <form>
+            <form id="meditation-retreat">
                 <h2>Let's Do This!</h2>
                 <div class="form-fields-flex">
                     <div class="left-form-fields">
@@ -44,7 +44,7 @@
                         <div class="form-row">
                             <label for="password">Password</label>
                             <input type="password" id="password" name="password"
-                            pattern="/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/"/>
+                            pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*-]).{8,}" required/>
                         </div>
                     </div>
                     <div class="right-form-fields">
@@ -58,11 +58,12 @@
                         </div>
                         <div class="form-row">
                             <label for="confirm-password">Confirm Password</label>
-                            <input type="password" id="confirm-password" name="confirm-password" pattern="/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/"/>
+                            <input type="password" id="confirm-password" name="confirm-password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*-]).{8,}" required/>
                         </div>
                     </div>
                 </div>
             </form>
+            <button type="submit" form="meditation-retreat">Create Account</button>
         </section>
     </body>
     
