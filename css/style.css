@@ -1,0 +1,19 @@
+body{
+    height:100%;
+}
+#image,#form{
+    width:50vw;
+    height:100vh;
+    display:flex;
+    border:1px solid black;
+    overflow:hidden;
+}
+#image {
+    background-image:url("../imgs/Meditation.jpg");
+    background-position:center;
+    background-size:cover;
+}
+polygon {
+    fill:none;
+    stroke:hsl(0 0% 100%);
+}
